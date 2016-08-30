@@ -1,0 +1,26 @@
+h1 {
+  margin-top: 60px;
+  font-size: 6em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.headline {
+  margin-top: 60px;
+  font-size: 6em;
+}
+
+.byline {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+.story {
+  margin-top: 45px;
+}
+
+.home-button {
+  color: white;
+}

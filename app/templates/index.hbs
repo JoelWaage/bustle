@@ -1,0 +1,10 @@
+
+<h1>Bustle</h1>
+
+<ul>
+  {{#each model as |story|}}
+    <li>{{#link-to 'story' story.id}}<img src={{story.image}} width="300" height="auto">{{/link-to}}</li>
+    <li>{{story.head}}</li>
+    <li>{{story.category}}</li>
+  {{/each}}
+</ul>
