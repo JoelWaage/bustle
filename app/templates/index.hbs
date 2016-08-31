@@ -1,10 +1,11 @@
 
 <h1>Bustle</h1>
-
-<ul>
+<ul class="list-group row">
   {{#each model as |story|}}
-    <li>{{#link-to 'story' story.id}}<img src={{story.image}} width="300" height="auto">{{/link-to}}</li>
-    <li>{{story.head}}</li>
-    <li>{{story.category}}</li>
+    <ul class="list-group-item col-md-4">
+      <li>{{#link-to 'story' story.id}}<img src={{story.image}} width="300" height="300">{{/link-to}}</li>
+      <li class="index-headline">{{story.head}}</li>
+      <li class="cat">{{story.category}}</li>
+    </ul>
   {{/each}}
 </ul>

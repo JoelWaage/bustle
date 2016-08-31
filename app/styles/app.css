@@ -24,3 +24,17 @@ li {
 .home-button {
   color: white;
 }
+
+.index-headline {
+  font-size: 2em;
+}
+
+.cat {
+  font-size: 1.1em;
+  margin-left: 20px;
+}
+
+.new-story {
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
